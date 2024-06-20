@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Video Page with Webcam and Chat</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<header>
+    <h1>leave you thoughts in the mailbox. </h1>
+</header>
+<body>
+    <div class="container">
+        <video id="mainVideo" width="640" height="360" muted autoplay loop>
+            <source id="videoSource" src="constant-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+        <div class="chat-box">
+            <div class="chat-messages" id="chatMessages"></div>
+            <input type="text" id="chatInput" placeholder="what do you adore..?">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
