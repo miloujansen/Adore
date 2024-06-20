@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .portfolio-item {
+            overflow: hidden;
+            width: calc(33.333% - 10px);
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+        .portfolio-item:hover img {
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .portfolio-item {
+                width: calc(50% - 10px);
+            }
+        }
+        @media (max-width: 480px) {
+            .portfolio-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>..</h1>
+    </header>
+    <div class="container">
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="photo1.jpg" alt="Foto 1">
+                <p>Hoi</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="photo2.jpg" alt="Foto 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="photo3.jpg" alt="Foto 3">
+            </div>
+            <div class="portfolio-item">
+                <img src="photo4.jpg" alt="Foto 4">
+            </div>
+            <div class="portfolio-item">
+                <img src="photo5.jpg" alt="Foto 5">
+            </div>
+            <div class="portfolio-item">
+                <img src="photo6.jpg" alt="Foto 6">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
