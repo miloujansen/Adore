@@ -1,0 +1,150 @@
+body {
+    font-family: 'inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 60px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.webcam-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.video-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+video {
+    width: 640px;
+    height: 360px;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+video, #displayImage {
+    width: 640px;
+    height: 360px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#captureButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#captureButton:hover {
+    background-color: #0056b3;
+}
+
+
+.chat-box {
+    width: 640px;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+.chat-messages div {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+#chatInput {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#sendButton:hover {
+    background-color: #636363;
+}
+
+#captureButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#captureButton:hover {
+    background-color: #218838;
+}
+
